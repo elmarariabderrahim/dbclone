@@ -1,2 +1,2 @@
 
-mysqldump --no-data  -uroot -pHGKO$.xu1234  db1 > ./mydb3.sql
+mysqldump --no-data  -uroot -pHGKO$.xu1234  db1 > /home/soprano/mydb3.sql
