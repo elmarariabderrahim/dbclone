@@ -1,2 +1,2 @@
 
-mysqldump --no-data  -uroot -pHGKO$.xu1234  db1 > ./mydb12.sql
+mysqldump --no-data  -uroot -pHGKO$.xu1234  db1 > ./mydb13.sql
