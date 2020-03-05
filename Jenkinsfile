@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Export_schema_to_git') {
             steps {
+		    sh 'pwd'
 		    sh 'chmod 777 ./clonedb.sh'
         	    sh './clonedb.sh'
 		   
