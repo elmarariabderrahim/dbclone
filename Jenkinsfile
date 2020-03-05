@@ -2,7 +2,7 @@
 pipeline {
     agent any 
     stages {
-        stage('init') {
+        stage('Export_schema_to_git') {
             steps {
 		    sh 'chmod 777 ./clonedb.sh'
         	    sh './clonedb.sh'
@@ -10,12 +10,12 @@ pipeline {
 		    
             }
         }
-        stage('ApplyScripts') {
+        stage('Import_schema_apply_scripts') {
             steps {
 		         echo 'Hello world!' 
             }
         }
-        stage('Import') {
+        stage('Apply_to_db') {
             steps {
 		    
 		    echo 'Hello world!' 
