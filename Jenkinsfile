@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Import_schema_apply_scripts') {
             steps {
-		       
+		 sh 'chmod 777 ./add_to_container.sh'       
 	      sh './add_to_container.sh'
             }
         }
