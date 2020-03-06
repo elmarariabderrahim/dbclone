@@ -13,8 +13,8 @@ pipeline {
         }
         stage('Import_schema_apply_scripts') {
             steps {
-		         sh 'chmod 777 ./git_changes.sh'
-        	    sh './git_changes.sh'
+		       
+	      sh './add_to_container.sh'
             }
         }
         stage('Apply_to_db') {
