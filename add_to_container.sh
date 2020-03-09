@@ -1,5 +1,5 @@
 #!/bin/bash
-docker start test-mysql
+sudo docker start test-mysql
 sudo chmod 777 /var/run/docker.sock
 
 str=$(docker port test-mysql)
