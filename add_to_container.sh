@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo chmod 777 /var/run/docker.sock
+echo "pixid123"
 
 str=$(docker port test-mysql)
 IFS=':'
